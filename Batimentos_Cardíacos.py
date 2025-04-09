@@ -7,7 +7,7 @@ def Checar_Batimentos():
         batimentos = random.uniform(0, 50)
         if batimentos >= 25:
           print("Os batimentos estão em ",int(batimentos),"; estão muito rápidos, tome cuidado.")
-        elif batimentos < 10:
+        elif batimentos <= 10:
           print("Os batimentos estão em ",int(batimentos),"; estão muito lentos, tome cuidado.")
         elif batimentos == 0:
           print("Sinto muito, mas você não resistiu...")
