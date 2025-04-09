@@ -2,7 +2,7 @@ import random
 import time
 
 # Definindo o número máximo de vagas no estacionamento
-vagas_maximas = 10
+vagas_maximas = 50
 vagas_ocupadas = 0
 
 def entrada_veiculo(vagas_ocupadas):
